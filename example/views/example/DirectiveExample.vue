@@ -63,8 +63,8 @@
 
 <script lang="ts">
 import "viewerjs/dist/viewer.css";
-import VViewer from "../../../src";
-import { defineComponent, getCurrentInstance, reactive, ref } from "vue-demi";
+import VViewer from "../../../dist/vue-viewer-vue3.es";
+import { defineComponent, getCurrentInstance, reactive, ref } from "vue";
 import Viewer from "viewerjs";
 
 const sourceImages: { thumbnail: string; source: string }[] = [];

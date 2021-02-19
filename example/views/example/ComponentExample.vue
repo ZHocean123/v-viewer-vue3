@@ -214,7 +214,7 @@
 
 <script lang="ts">
 import "viewerjs/dist/viewer.css";
-import { defineComponent, getCurrentInstance, reactive, ref } from "vue-demi";
+import { defineComponent, getCurrentInstance, reactive, ref } from "vue";
 import Viewer from "../../../src/index";
 
 const sourceImages: { thumbnail: string; source: string }[] = [];
